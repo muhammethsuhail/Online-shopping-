@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 17px;
+}
+#id
+{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem, 2rem;
+ 
+}
+.navber.navbar-brand{
+    font-size: 25px;
+    font-weight:900;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: ridge 2px;
+}
+#navbarSupportedContent button{
+    background-color:white;
+    color: blue;
+    border-radius: 10px;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+}
+.home .h1{
+  color: white !important;
+font-family: "Josefin Sans", sans-serif;
+font-size: 80px;
+letter-spacing: 3px;
+text-shadow: 0px 1px 0px #ccc,
+0px 2px 0px #ccc ,0px 3px 0px #ccc,
+0px 4px 0px #ccc,0px 5px 0px #ccc,0px 6px 0px #ccc;
+
+}
+
+#home{
+   
+ background: url(https://i.pinimg.com/736x/98/75/ae/9875aee2fadd68bc767713823caaca00.jpg);
+ background-size: cover;
+flex-direction: column;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(46, 46, 53);
+    font-size: 27px;
+}
+#home .input-group{
+    width:auto;
+    height: auto;
+    
+}
+.singin{
+    background-color: rgb(227, 219, 219);
+    color: blue !important;
+    border-radius: 6px;
+}
+#about{
+    background-color: #e5e5e5;
+}
+h2{
+    text-align: center ;
+    text-shadow: 0px 1px 0px #ccc,
+    0px 1px 0px #ccc ,0px 1px 0px #ccc,
+    0px 1px 0px #ccc,0px 1px 0px #ccc,0px 1px 0px #ccc;
+}
+.card{
+    align-content: space-around
+    ;
+}
+.product{
+    width: 200px;
+    height: 200px;
+    background-color: #e5e5e5 !important;
+}
+.card{
+    
+    margin: 7px 7px ;
+    background-color: #e5e5e5;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),
+                 inset 4px white;
+
+          border-radius: 20px !important;       
+          overflow: hidden;
+          justify-content: center;
+          text-align: center;
+}
+.card:hover{
+    box-shadow: inset 5px 20px 10px rgb(0,0,0,.3),
+                inset  -4px -4px 10px white;
+                transition: is;
+}
+
+#contact img{
+    height: auto;
+    width: 400px;
+
+}
+.box{
+    width: 80px !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#contact form input button textarea{
+    width: 1500px;
+    height: auto;
+    margin: 10px 0px;
+ }
+ 
