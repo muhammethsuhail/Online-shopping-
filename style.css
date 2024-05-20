@@ -1,10 +1,10 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
     font-size: 17px;
-}
+}*/
 #id
 {
     position:sticky;
@@ -108,7 +108,7 @@ h2{
     height: auto;
     width: 400px;
 
-}
+}/*
 .box{
     width: 80px !important;
     margin-top: 10px;
@@ -117,7 +117,7 @@ form{
     display: flex;
     flex-direction: column;
 
-}
+}*/
 #contact form input button textarea{
     width: 1500px;
     height: auto;
